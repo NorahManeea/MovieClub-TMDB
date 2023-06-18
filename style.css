@@ -1,0 +1,32 @@
+
+*{
+    --Medium-Turquoise: #3DD2CC;
+}
+.navbar{
+    background: linear-gradient(180deg, #0E1012 -50.62%, rgba(14, 16, 18, 0) 100%);
+}
+/* Hero */
+.hero{
+    background-image: url('assets/MovieHero.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    
+}
+.btn{
+    background-color: var(--Medium-Turquoise);
+    color: #0E1012;
+}
+.btn:hover{
+    background-color: #2aa6a2;
+    color: #0E1012;
+
+}
+ /* Footer */
+ #footer{
+    background-color: #090B13;
+    color: white;
+    height: 8vh;
+  }
+
